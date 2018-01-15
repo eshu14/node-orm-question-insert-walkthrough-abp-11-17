@@ -13,6 +13,11 @@ class Question{
       })      
     })
   }
+  function insert(){
+    return new Promise(function(resolve){
+      resolve("hihi")
+    })
+  }
 
   constructor(content){
     this.content = content
