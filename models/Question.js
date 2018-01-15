@@ -13,7 +13,7 @@ class Question{
       })
     })
   }
-  function insert(){
+  insert(){
     return new Promise(function(resolve){
       resolve("hihi")
     })
